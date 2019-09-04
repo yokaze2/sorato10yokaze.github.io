@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	color:#999;
+	font-size:14px;
+	line-height:150%;
+	padding:0;
+	margin:0;
+	
+	
+	
+}
+
+/*見出し*/
+h1 {
+	padding-top:15px;
+	padding-bottom:30px;
+	margin:0;
+}
+
+h2 {
+	background-image:url(../img/h2_title.gif);
+	background-repeat:no-repeat;
+	background-color:#ecdac2;
+	font-size:20px;
+	color:#300;
+	padding:5px 0 5px 10px;
+	margin:0 0 20px;
+}
+
+h3 {
+	background-image:url(../img/icon.gif);
+	background-repeat:no-repeat;
+	background-position:0 50%;
+	font-size:18px;
+	color:#a67815;
+	padding:0 0 0 23px;
+	margin-bottom:18px;
+	border-bottom:1px solid #a67815;
+}
+
+h4 {
+	margin:0 0 15px;
+	color:#690;
+	font-size:16px;
+}
+
+
+/*段落*/
+p {
+	padding-bottom:15px;
+	margin:0;
+}
+
+
+/*リスト*/
+ul {
+	list-style:none;
+	margin:0 0 10px;
+	padding:0;
+}
+
+ul li {
+	display:inline;
+	margin:0;
+}
+
+ol {
+	margin:0 0 15px 20px;
+	padding:0;
+}
+
+
+/*テーブル*/
+table {
+	border:1px solid #ccc;
+	border-collapse:collapse;
+	margin:0 0 15px;
+}
+td {
+	border-bottom:1px solid #ccc;
+	border-right:1px solid #ccc;
+	padding:10px 50px 10px 10px;
+}
+th {
+	border-bottom:1px solid #ccc;
+	border-right:1px solid #ccc;
+	padding:10px;
+	text-align:left;
+	background-color:#F1F1F1;
+	color:#657C31;
+}
+
+
+/*アドレス*/
+address {
+	padding:20px;
+	background-color:#F8F1E7;
+	font-style:normal;
+	text-align:center;
+	font-size:12px;
+	margin:30px 0 0;
+}
+
+
+/*強調*/
+strong {
+	color:#CC6666;
+}
+
+/*リンク*/
+a:link {
+	color:#3399FF;
+}
+a:visited {
+	color:#393;
+}
+a:hover {
+	color:#F60;
+}
+img {
+	border:0;
+}
+
+
+/*ボックス*/
+#wrap {
+	width:750px;
+	margin:0 auto;
+	background-image:url(../img/bk.gif);
+	background-repeat:no-repeat;
+	background-position:right top;
+}
+
+
+.menubox {
+	margin:0 15px 30px 15px;
+	border-bottom:3px dotted #666;
+	padding-bottom:20px;
+}
+
+
+/*クラス*/
+.photo {
+	float:left;
+	margin-right:20px;
+}
+
+.memo {
+	clear:left;
+}
