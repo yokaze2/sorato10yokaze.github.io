@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>カフェロクナナ</title>
+<link href="css/cafe.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onload="MM_preloadImages('img/navi_home_on.gif','img/navi_menu_on.gif','img/navi_about_on.gif')">
+<div id="wrap">
+  <h2><img src="img/logo.gif" width="277" height="50" alt="カフェロクナナ" /></h2>
+  <ul>
+    <li><a href="index007.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('navi1','','img/navi_home_on.gif',1)"><img src="img/navi_home.gif" alt="ホーム" width="130" height="28" id="navi1" /></a></li>
+    <li><a href="menu.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('navi2','','img/navi_menu_on.gif',1)"><img src="img/navi_menu.gif" alt="メニュー" width="130" height="28" id="navi2" /></a></li>
+    <li><a href="shop.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image6','','img/navi_about_on.gif',1)"><img src="img/navi_about.gif" alt="お店情報" width="130" height="28" id="Image6" /></a></li>
+  </ul>
+  <p><img src="img/top_img.jpg" width="750" height="332" alt="トップイメージ" /></p>
+  <p>Café 67では、心地よいソファと音楽と、おいしいコーヒーをご用意しています。<br />
+  騒がしい原宿の竹下通りとは反対に、<strong>落ち着いた雰囲気</strong>を持つ神宮前にあるスペースです。</p>
+  <h2> インフォメーション</h2>
+  <table border="1">
+    <tr>
+      <th> 更新日 </th>
+      <th> 更新内容 </th>
+    </tr>
+    <tr>
+      <td> 2010-04-20 </td>
+      <td> 4月26日は20：00までの営業となります。 </td>
+    </tr>
+    <tr>
+      <td> 2010-04-02 </td>
+      <td> <a href="menu.html">メニュー</a>が新しくなりました！ </td>
+    </tr>
+  </table>
+  <p><a href="http://dw.67ws.com" target="_blank"><img src="img/banner.jpg" width="264" height="64" alt="スタッフブログ" /></a></p>
+  <address>
+  <p>〒150-0001　東京都渋谷区神宮前1-1-12（JR山手線「原宿駅」徒歩8分）<br />
+    <a href="mailto:info@cafe67.jp">info@cafe67.jp</a><br />
+  Copyright （C) cafe67. All rights reserved.</p>
+  <p>&nbsp;</p>
+  </address>
+</div>
+</body>
+</html>
